@@ -16,5 +16,5 @@ See
 * Despliegue en **Heroku** [Acceder](http://obscure-bastion-8016.herokuapp.com/)
 
 
-## Jhoanmary Pérez Fariña  
-## Santiago Sainz Fernández
+## Jonathan Barrera Delgado
+## Daniel Nicolás
