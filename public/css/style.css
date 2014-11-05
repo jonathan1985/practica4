@@ -1,0 +1,140 @@
+body{
+ background:linear-gradient(to right, #616161, #9bc5c3); 
+}
+
+.contenido{
+/* 	border:solid; */
+/* 	border-radius:5px; */
+/* 	width:300px; */
+/* 	height:50px; */
+	margin:auto;
+	margin-top:3px;
+    margin-left:5%;
+	text-align:center;
+	font-size:25px;
+	padding-top:10px;
+    float: left;
+	
+}
+
+.nav {
+  /*border:solid;
+  border-color:#616161;*/
+  background:rgba(98, 98, 98, 0.2);
+  border-radius:5px;
+  width:535px;
+  text-align:center;
+  margin:auto;
+  margin-top:20px;
+  padding-bottom:5px;
+  
+}
+
+.contenido1{
+/* 	border:solid; */
+/* 	border-radius:5px; */
+/* 	width:250px; */
+/* 	height:50px; */
+	margin:auto;
+	margin-top:3px;
+	margin-left: 60%;
+	text-align:center;
+	font-size:25px;
+	padding-top:10px;
+
+	
+}
+
+
+#footer{
+  width:700px;
+  text-align:center;
+  margin-top:500px;
+  margin:auto;
+  padding-top:100px;
+}
+
+.tit{
+  text-align:center;
+  width:600px;
+  margin:auto;
+  font-size:30px;
+  border:solid;
+  border-radius:50px;
+  border-top-left-radius:0;
+  border-bottom-right-radius:0;
+  margin-top:20px;
+}
+
+
+.form{
+	background:rgba(98, 98, 98, 0.2);
+/* 	border:solid; */
+	border-radius:5px;
+	width:600px;
+	height:180px;
+	margin:auto;
+	margin-top:40px;
+	font-size:30px;
+	padding-top:10px;
+	
+}
+
+.form1{
+	background:rgba(98, 98, 98, 0.5);
+	border:solid;
+	border-radius:5px;
+	width:auto;
+	height:100%;
+	margin:auto;
+	margin-top:60px;
+	font-size:15px;
+	padding-top:10px;
+	
+}
+
+#formu{
+  width:450px;
+  margin-left:20px;
+  height:20px;
+  padding-left:10px;
+  border-radius:5px;
+  
+}
+
+#formu1{
+  width:200px;
+  margin-left:20px;
+  height:20px;
+  padding-left:10px;
+  border-radius:5px;
+  
+}
+
+.fa-scissors{
+  font-size:20px;
+  color:black;
+  margin-left:10px;
+}
+
+#content{
+  margin-top:30px;
+  margin-left:250px;
+  width:80px;
+}
+
+#bottom{
+  height:35px;
+  width: 90px;
+  margin-top:30px;
+  border-radius:5px;
+  margin-left:250px;
+  background:linear-gradient(to right, #616161, #9bc5c3);
+  font-size:20px;
+  
+}
+
+#respuesta{
+  font-size:30px;
+  text-align:center;
+}

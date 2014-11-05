@@ -1,0 +1,52 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "UTF-8"}
+      %title SyTW - P4
+      %link{:href => "/css/style.css", :rel => "stylesheet"}
+        / Insertar CSS
+        %link{:href => "http://netdna.bootstrapcdn.com/font-\nawesome/4.2.0/css/font-awesome.css", :rel => "stylesheet"}
+  %body
+    .tit
+      %p Acortar URL's
+    .nav
+      .contenido
+        %i.fa.fa-google
+        %a{:href => "/auth/google_oauth2"} SingIn
+      .contenido1
+        %a{:href => "/nologin"} Logout
+        %i.fa.fa-power-off
+    .form
+      %form{:action => "/", :method => "POST"}
+        %input#formu{:placeholder => "Introduce la URL", :type => "text", :name => "url"}
+          %br
+            %input#formu1{:placeholder => "Short URL (opcional)", :type => "text", :name => "opcional"}
+              %br
+                %input#bottom{:type => "submit", :value => "Cortar"}
+                  %i.fa.fa-scissors.fa-rotate-270
+    .form1
+      -if (session[:email] !=nil)
+        %p#respuesta URL'S de #{@mail}
+      -else
+        %p#respuesta URL'S
+      =yield
+    #footer
+      %p
+        %b © SYTW
+        \- Práctica 4 © - Realizado por:
+        %b Jhoanmary Prz Fariña y Santiago Sainz Fernández
+
+
+
+
+
+
+
+/ !!!
+/ %html
+/     %body
+/         =yield
+/         %form(action="/" method="POST")
+/             %label(for="url")
+/             %input(type="text" name="url" id="myurl" autofocus size=100 accesskey="s")
+/             %input(type="submit" value="Shorten")
