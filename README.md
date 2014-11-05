@@ -1,20 +1,23 @@
-# Pŕactica 4 - A URL shortener
+Sistemas y Tecnologías Web:
+Práctica: Acortador de URL
+
+Nombre: Daniel Nicolás Fernández del Castillo Salazar. Alu0100463057
+
+Nombre: Jonathan Barrera Delgado. Alu0100450187
+
+Expanda el ejemplo Acortador de URLs presentado en la sección 40.5 para que admita además abreviaciones elegidas por el usuario.
+
+Para ejecutar la app debemos seguir los siguientes pasos
+
+Repo https://github.com/bonedark/AcortadorURL
+Heroku http://acortaurl.herokuapp.com
+GH-pages http://bonedark.github.io/AcortadorURL
+Shortened URLS Acortador de urls con autenticación con Google
 
 See
 
-* [DataMapper](http://datamapper.org/getting-started.html)
-* [Haml](http://haml.info/)
-* [Sinatra](http://www.sinatrarb.com/)
-* [Deploying Rack-based Apps in Heroku](https://devcenter.heroku.com/articles/rack)
-* [Intridea Omniauth](https://github.com/intridea/omniauth)
+DataMapper Haml Sinatra Deploying Rack-based Apps in Heroku Intridea Omniauth Problemas con las gemas postgree
 
+Siga los siguientes pasos:
 
-### Realización
-
-* Expandir el ejemplo Acortador de URLs presentado en [GitHUb](https://github.com/crguezl/url_shortener_with_datamapper) para que admita además abreviaciones elegidas por el usuario.
-* Añadir **autentificado con Google** [Práctica 3](https://github.com/Michelle9/SYTW_P3)
-* Despliegue en **Heroku** [Acceder](http://obscure-bastion-8016.herokuapp.com/)
-
-
-## Jonathan Barrera Delgado
-## Daniel Nicolás
+sudo apt-get install libpq-dev gem install pg sudo apt-get install postgresql sudo apt-get install postgresql-server-dev-9.3 https://www.heroku.com/postgres
